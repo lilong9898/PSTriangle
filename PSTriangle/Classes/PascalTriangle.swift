@@ -71,7 +71,7 @@ private func generateLeadingSpacesForLine(line: Int, maxDisplayedLine: Int, tabW
 }
 
 /** 打印杨辉三角 */
-func printPascalTriangle(maxLines: Int, tabWidth: Int, displayedLines: Int...) {
+public func printPascalTriangle(maxLines: Int, tabWidth: Int, displayedLines: Int...) {
     let lineToNumbers = generateNumbersForAllLines(maxLines: maxLines)
     let lineToStrs = generateStrsForAllLines(tabWidth: tabWidth, lineToNumbers: lineToNumbers)
 
