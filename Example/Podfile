@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PSTriangle_Example' do
+  pod 'PSTriangle', :path => '../'
+
+  target 'PSTriangle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
