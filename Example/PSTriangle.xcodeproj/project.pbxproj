@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		341792E4EA8E6BBA835B8CCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		341792E4EA8E6BBA835B8CCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		34A57DF685D6BE0565FA24AB /* Pods_PSTriangle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTriangle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38500458D520A73D0B7ADB63 /* Pods-PSTriangle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTriangle_Tests.release.xcconfig"; path = "Target Support Files/Pods-PSTriangle_Tests/Pods-PSTriangle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3C4A8EB000FEBD8B18D7705D /* Pods-PSTriangle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTriangle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PSTriangle_Tests/Pods-PSTriangle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9709E0483EAA90EC0F02FFD2 /* Pods-PSTriangle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTriangle_Example.debug.xcconfig"; path = "Target Support Files/Pods-PSTriangle_Example/Pods-PSTriangle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BFCEAA9C8BCDB725BFD65473 /* Pods_PSTriangle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTriangle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C41BCCB8C7A6B72CB201E686 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C879CEE71C8923E3F6E543B9 /* PSTriangle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PSTriangle.podspec; path = ../PSTriangle.podspec; sourceTree = "<group>"; };
+		C41BCCB8C7A6B72CB201E686 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C879CEE71C8923E3F6E543B9 /* PSTriangle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PSTriangle.podspec; path = ../PSTriangle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				3C4A8EB000FEBD8B18D7705D /* Pods-PSTriangle_Tests.debug.xcconfig */,
 				38500458D520A73D0B7ADB63 /* Pods-PSTriangle_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

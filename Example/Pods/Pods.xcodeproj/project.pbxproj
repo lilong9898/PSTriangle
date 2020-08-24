@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044786B5243B6D276FA77FBDA15C9C5A /* Pods-PSTriangle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC2AB32C67CB4010E776C038E0C1BE /* Pods-PSTriangle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F488F1CBDD0B2BAA901062E398034B5 /* Pods-PSTriangle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED45C2555083018B3E9BA2D03B579FAE /* Pods-PSTriangle_Example-dummy.m */; };
+		2EEFE7CFF4092D3B5069B4013F9FFA61 /* PSTriangle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 460A2231603FEB80E5B810EB397FE2DD /* PSTriangle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE83DC1A13B1B31C068AD75887DE574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77B87197D376EE87E4605CE0D51C5669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		98845F524342F6DDB2AD95D8782D97C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E5FF34F3DEA150B7883CF63F9E2AFDA5 /* PSTriangle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F5BE1B2C0B4A107BCB37CC4FBD02F /* PSTriangle-dummy.m */; };
+		EA36FEF698A77BE82BD0D9C70F1CF80A /* PascalTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A6AEE29E5AB54C331BEDE4C26C01D3 /* PascalTriangle.swift */; };
+		EB7A673077234549B40992F45016EBD6 /* Pods-PSTriangle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5FF577F9367FCEA934217DF03A3509 /* Pods-PSTriangle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0274C14198F75993B30304B240810FE /* Pods-PSTriangle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B0B642D5DE470189FC2E82723F35C7 /* Pods-PSTriangle_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AE88E9FE05BF1FEAE79E4EADAEBE66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5FB65AA90C09845E7D0D239299B9A4;
+			remoteInfo = "Pods-PSTriangle_Example";
+		};
+		E99EBC16E3F65C22DBADDDC5550F5813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AB51CEA303F026D52256F95272C613;
+			remoteInfo = PSTriangle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5FF577F9367FCEA934217DF03A3509 /* Pods-PSTriangle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSTriangle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0F607A27A4A900253C525D40EFDAA3C1 /* Pods-PSTriangle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTriangle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1EC5022F5ED5622E78C6285B164980AC /* Pods-PSTriangle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSTriangle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FD333BB224204390D4BF539205806EE /* Pods_PSTriangle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTriangle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C43520D08F0B7D7816E313E869E65B /* PSTriangle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSTriangle.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A1EDC21AE5B5B7B94134A3472BEB5E5 /* PSTriangle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTriangle-prefix.pch"; sourceTree = "<group>"; };
+		3D9E65F5CB4D96571F094154DA61F761 /* Pods-PSTriangle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTriangle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		460A2231603FEB80E5B810EB397FE2DD /* PSTriangle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTriangle-umbrella.h"; sourceTree = "<group>"; };
+		4A5E364ACD10BDB54BFC34459882EE95 /* Pods-PSTriangle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSTriangle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E301B0A1323B1FCBE2B2E218C95CBB2 /* Pods-PSTriangle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSTriangle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		662546D9171B2641FD627FF2590D8BA0 /* PSTriangle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PSTriangle-Info.plist"; sourceTree = "<group>"; };
+		6AEAEA194F0FAFF2F2E50C0F1FDE6774 /* Pods-PSTriangle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSTriangle_Tests.modulemap"; sourceTree = "<group>"; };
+		745D70A73A026283434E2BEE10BDC9B7 /* Pods-PSTriangle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTriangle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82B0B642D5DE470189FC2E82723F35C7 /* Pods-PSTriangle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSTriangle_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A1377E265EEFED3A03CFF69209A5F13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABE383E7DBC5C54900C0B73C79773E5F /* Pods_PSTriangle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTriangle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD567FE7C3006C44A333FCD19FD1AB9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AEC53C45799E14BACEA24D135A6F8200 /* Pods-PSTriangle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTriangle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A6AEE29E5AB54C331BEDE4C26C01D3 /* PascalTriangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PascalTriangle.swift; path = PSTriangle/Classes/PascalTriangle.swift; sourceTree = "<group>"; };
+		C20CB8E4D9A39AE26CA4405522DA58AB /* PSTriangle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PSTriangle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DEAC2AB32C67CB4010E776C038E0C1BE /* Pods-PSTriangle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSTriangle_Example-umbrella.h"; sourceTree = "<group>"; };
+		E877F53509D6B3A7A903A67F34A85C58 /* Pods-PSTriangle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSTriangle_Tests-Info.plist"; sourceTree = "<group>"; };
+		EA6D130B4A0C85E6003D3878F7E9342D /* Pods-PSTriangle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSTriangle_Example-Info.plist"; sourceTree = "<group>"; };
+		EA6FF790BC395BA1052D982D5BED5577 /* Pods-PSTriangle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSTriangle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB5F37FCD365FC5DB4D25EF04971D541 /* Pods-PSTriangle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSTriangle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED45C2555083018B3E9BA2D03B579FAE /* Pods-PSTriangle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSTriangle_Example-dummy.m"; sourceTree = "<group>"; };
+		EDD382A34D1A0EA5100D658D08E54E16 /* PSTriangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSTriangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8CD29F50CA07849ED06F52556A04A9 /* PSTriangle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSTriangle.xcconfig; sourceTree = "<group>"; };
+		F03F5BE1B2C0B4A107BCB37CC4FBD02F /* PSTriangle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSTriangle-dummy.m"; sourceTree = "<group>"; };
+		FAF191386A3C9967A911A13810CD4EA2 /* Pods-PSTriangle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSTriangle_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74638387E9414571EC977D8BE5611325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98845F524342F6DDB2AD95D8782D97C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E20AA3C34B9646D960C2CF7E6E4321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE83DC1A13B1B31C068AD75887DE574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE6FD4EF907122C582533AE0ABC6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B87197D376EE87E4605CE0D51C5669 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2909D15ECB4C84D6255FBF9D9B94A51D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A1377E265EEFED3A03CFF69209A5F13 /* LICENSE */,
+				C20CB8E4D9A39AE26CA4405522DA58AB /* PSTriangle.podspec */,
+				AD567FE7C3006C44A333FCD19FD1AB9D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		587F67A40147D33D8B46B7FF0D3BC118 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6664305D892A90DA92A0B0713039A /* Pods-PSTriangle_Example */,
+				B27183AFB9C25D151D92D5B6FB95741A /* Pods-PSTriangle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C235A2EC4B04B22EC8B3E0EB1EFF199 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21C43520D08F0B7D7816E313E869E65B /* PSTriangle.modulemap */,
+				EE8CD29F50CA07849ED06F52556A04A9 /* PSTriangle.xcconfig */,
+				F03F5BE1B2C0B4A107BCB37CC4FBD02F /* PSTriangle-dummy.m */,
+				662546D9171B2641FD627FF2590D8BA0 /* PSTriangle-Info.plist */,
+				3A1EDC21AE5B5B7B94134A3472BEB5E5 /* PSTriangle-prefix.pch */,
+				460A2231603FEB80E5B810EB397FE2DD /* PSTriangle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PSTriangle";
+			sourceTree = "<group>";
+		};
+		AD7C8FCA096373424CB0C889EC819098 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2931D7483CF52E34A76536EB0F4F911 /* PSTriangle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B1AE71493573C916C8D3621BEB9CA8CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABE383E7DBC5C54900C0B73C79773E5F /* Pods_PSTriangle_Example.framework */,
+				1FD333BB224204390D4BF539205806EE /* Pods_PSTriangle_Tests.framework */,
+				EDD382A34D1A0EA5100D658D08E54E16 /* PSTriangle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27183AFB9C25D151D92D5B6FB95741A /* Pods-PSTriangle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6AEAEA194F0FAFF2F2E50C0F1FDE6774 /* Pods-PSTriangle_Tests.modulemap */,
+				EB5F37FCD365FC5DB4D25EF04971D541 /* Pods-PSTriangle_Tests-acknowledgements.markdown */,
+				1EC5022F5ED5622E78C6285B164980AC /* Pods-PSTriangle_Tests-acknowledgements.plist */,
+				82B0B642D5DE470189FC2E82723F35C7 /* Pods-PSTriangle_Tests-dummy.m */,
+				E877F53509D6B3A7A903A67F34A85C58 /* Pods-PSTriangle_Tests-Info.plist */,
+				0A5FF577F9367FCEA934217DF03A3509 /* Pods-PSTriangle_Tests-umbrella.h */,
+				AEC53C45799E14BACEA24D135A6F8200 /* Pods-PSTriangle_Tests.debug.xcconfig */,
+				745D70A73A026283434E2BEE10BDC9B7 /* Pods-PSTriangle_Tests.release.xcconfig */,
+			);
+			name = "Pods-PSTriangle_Tests";
+			path = "Target Support Files/Pods-PSTriangle_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AD7C8FCA096373424CB0C889EC819098 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B1AE71493573C916C8D3621BEB9CA8CF /* Products */,
+				587F67A40147D33D8B46B7FF0D3BC118 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2931D7483CF52E34A76536EB0F4F911 /* PSTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				B9A6AEE29E5AB54C331BEDE4C26C01D3 /* PascalTriangle.swift */,
+				2909D15ECB4C84D6255FBF9D9B94A51D /* Pod */,
+				8C235A2EC4B04B22EC8B3E0EB1EFF199 /* Support Files */,
+			);
+			name = PSTriangle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FCC6664305D892A90DA92A0B0713039A /* Pods-PSTriangle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FAF191386A3C9967A911A13810CD4EA2 /* Pods-PSTriangle_Example.modulemap */,
+				EA6FF790BC395BA1052D982D5BED5577 /* Pods-PSTriangle_Example-acknowledgements.markdown */,
+				4E301B0A1323B1FCBE2B2E218C95CBB2 /* Pods-PSTriangle_Example-acknowledgements.plist */,
+				ED45C2555083018B3E9BA2D03B579FAE /* Pods-PSTriangle_Example-dummy.m */,
+				4A5E364ACD10BDB54BFC34459882EE95 /* Pods-PSTriangle_Example-frameworks.sh */,
+				EA6D130B4A0C85E6003D3878F7E9342D /* Pods-PSTriangle_Example-Info.plist */,
+				DEAC2AB32C67CB4010E776C038E0C1BE /* Pods-PSTriangle_Example-umbrella.h */,
+				0F607A27A4A900253C525D40EFDAA3C1 /* Pods-PSTriangle_Example.debug.xcconfig */,
+				3D9E65F5CB4D96571F094154DA61F761 /* Pods-PSTriangle_Example.release.xcconfig */,
+			);
+			name = "Pods-PSTriangle_Example";
+			path = "Target Support Files/Pods-PSTriangle_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53360A73F504257F89EFF76869B7EF26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044786B5243B6D276FA77FBDA15C9C5A /* Pods-PSTriangle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF4CCC8B98B95D344F6F91092FA1CBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEFE7CFF4092D3B5069B4013F9FFA61 /* PSTriangle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA2FBBD63738DC14C226C3A98A84495 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7A673077234549B40992F45016EBD6 /* Pods-PSTriangle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C5FB65AA90C09845E7D0D239299B9A4 /* Pods-PSTriangle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B55AAF9A440D0313CF38AABDCD2FFC /* Build configuration list for PBXNativeTarget "Pods-PSTriangle_Example" */;
+			buildPhases = (
+				53360A73F504257F89EFF76869B7EF26 /* Headers */,
+				7967741503FF63C8EF6237208F8803EE /* Sources */,
+				74638387E9414571EC977D8BE5611325 /* Frameworks */,
+				D89C95A93C44E512160C3F73F0D2D6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C52D6534728EB6724377C9F9C85E758 /* PBXTargetDependency */,
+			);
+			name = "Pods-PSTriangle_Example";
+			productName = "Pods-PSTriangle_Example";
+			productReference = ABE383E7DBC5C54900C0B73C79773E5F /* Pods_PSTriangle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84DE74AD98C21992B8A13656B99598F4 /* Pods-PSTriangle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F301191DBD580EB762923C4851BE6099 /* Build configuration list for PBXNativeTarget "Pods-PSTriangle_Tests" */;
+			buildPhases = (
+				FAA2FBBD63738DC14C226C3A98A84495 /* Headers */,
+				34743A4B6CAFEB96948EA20FDA19E49D /* Sources */,
+				91E20AA3C34B9646D960C2CF7E6E4321 /* Frameworks */,
+				F585278C9C13EC8EE99EF3E318F375F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223CF4C96F3E64A855B949A6A308C6FD /* PBXTargetDependency */,
+			);
+			name = "Pods-PSTriangle_Tests";
+			productName = "Pods-PSTriangle_Tests";
+			productReference = 1FD333BB224204390D4BF539205806EE /* Pods_PSTriangle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7AB51CEA303F026D52256F95272C613 /* PSTriangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F7D47E8F19E49F57A6376860503DA7 /* Build configuration list for PBXNativeTarget "PSTriangle" */;
+			buildPhases = (
+				8AF4CCC8B98B95D344F6F91092FA1CBF /* Headers */,
+				0AD6510BE98BADA411A7C90DC6072F8E /* Sources */,
+				FFDE6FD4EF907122C582533AE0ABC6C2 /* Frameworks */,
+				278E53546DB42C777FD9F52E80C90383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSTriangle;
+			productName = PSTriangle;
+			productReference = EDD382A34D1A0EA5100D658D08E54E16 /* PSTriangle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B1AE71493573C916C8D3621BEB9CA8CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5FB65AA90C09845E7D0D239299B9A4 /* Pods-PSTriangle_Example */,
+				84DE74AD98C21992B8A13656B99598F4 /* Pods-PSTriangle_Tests */,
+				D7AB51CEA303F026D52256F95272C613 /* PSTriangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278E53546DB42C777FD9F52E80C90383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89C95A93C44E512160C3F73F0D2D6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F585278C9C13EC8EE99EF3E318F375F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD6510BE98BADA411A7C90DC6072F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FF34F3DEA150B7883CF63F9E2AFDA5 /* PSTriangle-dummy.m in Sources */,
+				EA36FEF698A77BE82BD0D9C70F1CF80A /* PascalTriangle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34743A4B6CAFEB96948EA20FDA19E49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0274C14198F75993B30304B240810FE /* Pods-PSTriangle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7967741503FF63C8EF6237208F8803EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F488F1CBDD0B2BAA901062E398034B5 /* Pods-PSTriangle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C52D6534728EB6724377C9F9C85E758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSTriangle;
+			target = D7AB51CEA303F026D52256F95272C613 /* PSTriangle */;
+			targetProxy = E99EBC16E3F65C22DBADDDC5550F5813 /* PBXContainerItemProxy */;
+		};
+		223CF4C96F3E64A855B949A6A308C6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PSTriangle_Example";
+			target = 2C5FB65AA90C09845E7D0D239299B9A4 /* Pods-PSTriangle_Example */;
+			targetProxy = 4AE88E9FE05BF1FEAE79E4EADAEBE66A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DC6E417B43BCDBBC28325410C5B9901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8CD29F50CA07849ED06F52556A04A9 /* PSTriangle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSTriangle/PSTriangle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSTriangle/PSTriangle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSTriangle/PSTriangle.modulemap";
+				PRODUCT_MODULE_NAME = PSTriangle;
+				PRODUCT_NAME = PSTriangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		738D9D9819CF36E27477677C1DCEF525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745D70A73A026283434E2BEE10BDC9B7 /* Pods-PSTriangle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTriangle_Tests/Pods-PSTriangle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTriangle_Tests/Pods-PSTriangle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAAE842C7457A5633333D2BD00F40EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F607A27A4A900253C525D40EFDAA3C1 /* Pods-PSTriangle_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTriangle_Example/Pods-PSTriangle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTriangle_Example/Pods-PSTriangle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B095CAB15E2B6898A188806D07B77056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8CD29F50CA07849ED06F52556A04A9 /* PSTriangle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSTriangle/PSTriangle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSTriangle/PSTriangle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSTriangle/PSTriangle.modulemap";
+				PRODUCT_MODULE_NAME = PSTriangle;
+				PRODUCT_NAME = PSTriangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE2348A6170FA5DE356865B6AE164A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC53C45799E14BACEA24D135A6F8200 /* Pods-PSTriangle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTriangle_Tests/Pods-PSTriangle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTriangle_Tests/Pods-PSTriangle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3D3617B85EB8A96D1ED40201085AB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E65F5CB4D96571F094154DA61F761 /* Pods-PSTriangle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTriangle_Example/Pods-PSTriangle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTriangle_Example/Pods-PSTriangle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B55AAF9A440D0313CF38AABDCD2FFC /* Build configuration list for PBXNativeTarget "Pods-PSTriangle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAE842C7457A5633333D2BD00F40EE2 /* Debug */,
+				E3D3617B85EB8A96D1ED40201085AB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F7D47E8F19E49F57A6376860503DA7 /* Build configuration list for PBXNativeTarget "PSTriangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B095CAB15E2B6898A188806D07B77056 /* Debug */,
+				3DC6E417B43BCDBBC28325410C5B9901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F301191DBD580EB762923C4851BE6099 /* Build configuration list for PBXNativeTarget "Pods-PSTriangle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2348A6170FA5DE356865B6AE164A79 /* Debug */,
+				738D9D9819CF36E27477677C1DCEF525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

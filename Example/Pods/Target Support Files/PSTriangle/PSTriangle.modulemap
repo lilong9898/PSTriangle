@@ -1,0 +1,6 @@
+framework module PSTriangle {
+  umbrella header "PSTriangle-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PSTriangle (0.1.0)
+
+DEPENDENCIES:
+  - PSTriangle (from `../`)
+
+EXTERNAL SOURCES:
+  PSTriangle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PSTriangle: facd6e2b9165633c5bfb86754771d5956ffd7e07
+
+PODFILE CHECKSUM: 1e6c8a7ef6086467372645bfd71b4388d8581a55
+
+COCOAPODS: 1.8.4

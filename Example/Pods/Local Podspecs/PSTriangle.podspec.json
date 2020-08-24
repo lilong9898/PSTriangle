@@ -1,0 +1,22 @@
+{
+  "name": "PSTriangle",
+  "version": "0.1.0",
+  "summary": "A short description of PSTriangle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lilong01/PSTriangle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lilong01": "lilong01@fenbi.com"
+  },
+  "source": {
+    "git": "https://github.com/lilong01/PSTriangle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PSTriangle/Classes/**/*"
+}
